@@ -1,4 +1,4 @@
-qpdfview gtk2-engines alsa-utils
+gtk2-engines alsa-utils
 desktop-base
 git
 raspberrypi-artwork
