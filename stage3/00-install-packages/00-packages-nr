@@ -1,6 +1,10 @@
 xserver-xorg-video-fbdev xserver-xorg xinit xserver-xorg-video-fbturbo
 geany
-lxde lxtask menu-xdg
+galculator
+gpicview
+lxappearance lxappearance-obconf lxde-core lxde-icon-theme lxhotkey-gtk
+lxinput lxrandr lxsession-edit lxterminal xarchiver 
+lxtask menu-xdg evince
 zenity xdg-utils
 gvfs-backends gvfs-fuse
-lightdm gnome-themes-standard-data gnome-icon-theme
+lightdm gtk2-engines-murrine gnome-icon-theme
