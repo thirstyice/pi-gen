@@ -1,6 +1,6 @@
 --- a/rootfs/etc/skel/.bashrc
 +++ b/rootfs/etc/skel/.bashrc
-@@ -30,11 +30,6 @@ shopt -s checkwinsize
+@@ -30,11 +30,6 @@
  # make less more friendly for non-text input files, see lesspipe(1)
  #[ -x /usr/bin/lesspipe ] && eval "$(SHELL=/bin/sh lesspipe)"
  
@@ -26,9 +26,9 @@
  
  if [ "$color_prompt" = yes ]; then
 -    PS1='${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ '
-+    PS1="\[\e[33;1m\]\u\[\e[m\]@\[\e[32;1m\]\h\[\e[m\]:\[\e[34;1m\]\w\[\e[m\]\n\[\e[35;1m\]\\$ \[\e[m\]"
++	PS1="\[\e[33;1m\]\u\[\e[m\]@\[\e[32;1m\]\h\[\e[m\]:\[\e[34;1m\]\w\[\e[m\]\n\[\e[35;1m\]\\$ \[\e[m\]"
  else
--	PS1='${debian_chroot:+($debian_chroot)}\u@\h:\w\$ '
+-    PS1='${debian_chroot:+($debian_chroot)}\u@\h:\w\$ '
 +	PS1="\u@\h:\w\n\\$ "
  fi
  unset color_prompt force_color_prompt
