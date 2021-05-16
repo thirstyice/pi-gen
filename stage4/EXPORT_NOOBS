@@ -1,2 +1,2 @@
 NOOBS_NAME="thirstyPi standard"
-NOOBS_DESCRIPTION="A port of Debian with the lxde desktop"
+NOOBS_DESCRIPTION="A port of Debian with the xfce desktop"
