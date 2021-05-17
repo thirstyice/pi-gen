@@ -1,10 +1,56 @@
-xserver-xorg-video-fbdev xserver-xorg xinit xserver-xorg-video-fbturbo
-geany
-galculator
 gpicview
-lxappearance lxappearance-obconf lxde-core lxde-icon-theme lxhotkey-gtk
-lxinput lxrandr lxsession-edit lxterminal xarchiver 
-lxtask menu-xdg evince
-zenity xdg-utils
-gvfs-backends gvfs-fuse
-lightdm gtk2-engines-murrine gnome-icon-theme
+menu-xdg
+zenity gvfs-fuse gvfs
+rfkill
+
+menu
+xserver-xorg
+xinit
+xserver-xorg-input-all
+xserver-xorg-video-fbdev
+xserver-xorg-video-fbturbo
+alsa-utils
+avahi-daemon
+libgl1-mesa-dri
+libnss-mdns
+xdg-utils
+libinput10
+xsane
+network-manager-gnome
+synaptic
+gdebi
+dbus-x11
+
+lightdm
+gvfs-backends
+xfce4-panel
+xfce4-session
+xfce4-settings
+libxfce4ui-utils
+lxterminal
+xfce4-power-manager
+xfconf
+xfdesktop4
+xfwm4
+xfce4-notifyd
+xfce4-whiskermenu-plugin
+xfce4-datetime-plugin
+xfce4-battery-plugin
+gtk2-engines-murrine
+gtk3-engines-xfce
+
+firefox-esr
+galculator
+vlc
+arandr
+baobab
+gparted
+gnome-disk-utility
+geany
+conky
+thunar
+thunar-volman
+xarchiver
+thunar-archive-plugin
+thunar-media-tags-plugin
+evince
