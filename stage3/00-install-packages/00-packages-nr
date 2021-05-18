@@ -16,7 +16,6 @@ libnss-mdns
 xdg-utils
 libinput10
 xsane
-network-manager-gnome
 synaptic
 gdebi
 dbus-x11
@@ -38,19 +37,3 @@ xfce4-datetime-plugin
 xfce4-battery-plugin
 gtk2-engines-murrine
 gtk3-engines-xfce
-
-firefox-esr
-galculator
-vlc
-arandr
-baobab
-gparted
-gnome-disk-utility
-geany
-conky
-thunar
-thunar-volman
-xarchiver
-thunar-archive-plugin
-thunar-media-tags-plugin
-evince
