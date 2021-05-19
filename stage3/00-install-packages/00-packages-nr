@@ -2,6 +2,7 @@ gpicview
 menu-xdg
 zenity gvfs-fuse gvfs
 rfkill
+rc-gui
 
 menu
 xserver-xorg
