@@ -1,0 +1,10 @@
+[Desktop Entry]
+Encoding=UTF-8
+Version=0.5.1
+Type=Application
+Name=volumeicon
+Comment=
+Exec=volumeicon
+StartupNotify=false
+Terminal=false
+Hidden=false

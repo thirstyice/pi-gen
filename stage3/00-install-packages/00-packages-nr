@@ -27,7 +27,6 @@ xfce4-session
 xfce4-settings
 libxfce4ui-utils
 lxterminal
-xfce4-power-manager
 xfconf
 xfdesktop4
 xfwm4
@@ -37,3 +36,9 @@ xfce4-datetime-plugin
 xfce4-battery-plugin
 gtk2-engines-murrine
 gtk3-engines-xfce
+
+thunar
+thunar-volman
+xarchiver
+thunar-archive-plugin
+thunar-media-tags-plugin
