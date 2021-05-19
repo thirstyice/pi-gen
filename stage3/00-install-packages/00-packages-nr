@@ -36,6 +36,7 @@ xfce4-datetime-plugin
 xfce4-battery-plugin
 gtk2-engines-murrine
 gtk3-engines-xfce
+network-manager-gnome
 
 thunar
 thunar-volman
