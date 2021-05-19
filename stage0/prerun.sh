@@ -16,4 +16,9 @@ SUPPORT_URL=\"http://www.raspbian.org/RaspbianForums\"
 BUG_REPORT_URL=\"http://www.raspbian.org/RaspbianBugs\"
 " > files/os-release
 
+echo "${IMG_NAME} ${VERSION} \n \l" > files/issue
+echo "${IMG_NAME} ${VERSION}" > files/issue.net
+
 install -v -m 644 files/os-release "${ROOTFS_DIR}/usr/lib/"
+install -v -m 644 files/issue "${ROOTFS_DIR}/etc/"
+install -v -m 644 files/issue.net "${ROOTFS_DIR}/etc/"
