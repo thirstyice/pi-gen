@@ -28,4 +28,5 @@ install -v -m 644 files/volumeicon-alsa_0.5.1+git20171004-thirstyice_armv7l.deb\
 						"${ROOTFS_DIR}/var/cache/apt/archives/"
 on_chroot << EOF
 dpkg -i /var/cache/apt/archives/volumeicon-alsa_0.5.1+git20171004-thirstyice_armv7l.deb
+apt-get purge -y dhcpcd5
 EOF
