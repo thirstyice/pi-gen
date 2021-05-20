@@ -1,7 +1,6 @@
 #!/bin/bash -e
 
 install -v -m 644 files/conky.conf			"${ROOTFS_DIR}/etc/conky/"
-install -v -m 644 files/lightdm-gtk-greeter.conf	"${ROOTFS_DIR}/etc/lightdm/"
 install -v -m 644 files/conky.conf			"${ROOTFS_DIR}/etc/conky/"
 install -v -m 644 files/autostart/conky.desktop		"${ROOTFS_DIR}/etc/xdg/autostart/"
 install -v -m 644 files/geany.conf			"${ROOTFS_DIR}/usr/share/geany/"
