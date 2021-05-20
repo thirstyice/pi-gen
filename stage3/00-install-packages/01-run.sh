@@ -24,7 +24,7 @@ install -v -m 644 files/01_thirstyOS.conf	"${ROOTFS_DIR}/usr/share/lightdm/light
 
 install -v -m 644 files/lxterminal.conf		"${ROOTFS_DIR}/usr/share/lxterminal/"
 
-install -v -m 644 files/com.ubuntu.pkexec.thunar.policy.conf	"${ROOTFS_DIR}/usr/share/polkit-1/actions/"
+install -v -m 644 files/com.ubuntu.pkexec.thunar.policy	"${ROOTFS_DIR}/usr/share/polkit-1/actions/"
 
 install -v -m 644 files/volumeicon-alsa_0.5.1+git20171004-thirstyice_armv7l.deb\
 						"${ROOTFS_DIR}/var/cache/apt/archives/"
