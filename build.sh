@@ -227,6 +227,7 @@ export PUBKEY_SSH_FIRST_USER
 
 export CLEAN
 export IMG_NAME
+export VERSION=${VERSION:-"0"}
 export APT_PROXY
 
 export STAGE
