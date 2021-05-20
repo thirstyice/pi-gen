@@ -22,3 +22,5 @@ echo "${IMG_NAME} ${VERSION}" > files/issue.net
 install -v -m 644 files/os-release "${ROOTFS_DIR}/usr/lib/"
 install -v -m 644 files/issue "${ROOTFS_DIR}/etc/"
 install -v -m 644 files/issue.net "${ROOTFS_DIR}/etc/"
+
+rm files/os-release files/issue files/issue.net
