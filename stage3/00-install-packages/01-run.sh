@@ -15,9 +15,13 @@ install -v -m 644 files/defaults		"${ROOTFS_DIR}/usr/share/xfwm4/"
 install -v -m 644 files/volumeicon.desktop	"${ROOTFS_DIR}/etc/xdg/autostart/"
 
 
-install -v -m 644 -d files/Tela-circle		"${ROOTFS_DIR}/usr/share/icons/"
-install -v -m 644 -d files/Tela-circle-dark	"${ROOTFS_DIR}/usr/share/icons/"
-install -v -m 644 -d files/WhiteSur-dark-solid	"${ROOTFS_DIR}/usr/share/themes/"
+cp -v -r files/Tela-circle			"${ROOTFS_DIR}/usr/share/icons/"
+chmod -v -R 644 "${ROOTFS_DIR}/usr/share/icons/Tela-circle/"
+cp -r -v files/Tela-circle-dark			"${ROOTFS_DIR}/usr/share/icons/"
+chmod -v -R 644 "${ROOTFS_DIR}/usr/share/icons/Tela-circle-dark/"
+cp -v -r files/WhiteSur-dark-solid		"${ROOTFS_DIR}/usr/share/themes/"
+chmod -v -R 644 "${ROOTFS_DIR}/usr/share/themes/WhiteSur-dark-solid/"
+
 install -v -m 644 files/lightdm-gtk-greeter.conf "${ROOTFS_DIR}/etc/lightdm/"
 install -v -m 644 files/login-background.svg	"${ROOTFS_DIR}/usr/share/lightdm/"
 install -v -m 644 files/01_thirstyOS.conf	"${ROOTFS_DIR}/usr/share/lightdm/lightdm.conf.d/"
