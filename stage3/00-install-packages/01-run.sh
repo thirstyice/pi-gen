@@ -26,9 +26,9 @@ install -v -m 644 files/lxterminal.conf		"${ROOTFS_DIR}/usr/share/lxterminal/"
 
 install -v -m 644 files/com.ubuntu.pkexec.thunar.policy	"${ROOTFS_DIR}/usr/share/polkit-1/actions/"
 
-install -v -m 644 files/volumeicon-alsa_0.5.1+git20171004-thirstyice_armv7l.deb\
+install -v -m 644 files/volumeicon-alsa_0.5.1+git20171004-thirstyice_armhf.deb\
 						"${ROOTFS_DIR}/var/cache/apt/archives/"
 on_chroot << EOF
-dpkg -i /var/cache/apt/archives/volumeicon-alsa_0.5.1+git20171004-thirstyice_armv7l.deb
+dpkg -i /var/cache/apt/archives/volumeicon-alsa_0.5.1+git20171004-thirstyice_armhf.deb
 apt-get purge -y dhcpcd5
 EOF
