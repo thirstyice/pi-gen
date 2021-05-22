@@ -4,7 +4,7 @@ if [ ! -d "${ROOTFS_DIR}" ] || [ "${USE_QCOW2}" = "1" ]; then
 	bootstrap ${RELEASE} "${ROOTFS_DIR}" http://raspbian.raspberrypi.org/raspbian/
 fi
 
-echo "PRETTY_NAME=\"${IMG_NAME} ${IMG_VERSION} ${RELEASE}\"
+echo "PRETTY_NAME=\"${IMG_NAME} ${VERSION} ${RELEASE}\"
 NAME=\"${IMG_NAME}\"
 VERSION_ID=\"${VERSION}\"
 VERSION=\"${VERSION} (${RELEASE})\"
